@@ -9,8 +9,8 @@ val v3: Float = 23.45f
 val v4: Double = 0.123456789
 val v5: String = "Kotlin & Java"
 
-// Boolean type's value FALSE should be written in lowercase letters
-val v6: Boolean = false
+// Boolean type's value FALSE should be written in lowercase letters, correct val v6: Boolean = false
+//val v6 = FALSE
 
 val v7: Char = 'c'
 val v8: Short = 500
@@ -27,12 +27,12 @@ val v18: Set<String> = setOf("OpenAI", "Quantum Computing")
 val v19: Float = 5.75f
 
 // String is always in double quotes ("), or it can be Float 1.414f or Double 1.414
-val v20: String = "1.414"
+//val v20 = `1.414`
 
 val v21: String = "Artificial Intelligence"
 
-// "A" looks like Char 'A', or we can use Array<Any> to keep arrayOf('x', "A")
-val v22: Array<Char> = arrayOf('x', 'A')
+// "A" looks like Char 'A', or we can use Array<Any> to keep arrayOf('x', "A"), correct val v22: Array<Char> = arrayOf('x', 'A')
+//val v20 = `1.414`
 
 val v23: String = "Android Studio"
 val v24: Char = '@'
@@ -42,18 +42,19 @@ val v27: Float = 10.01f
 val v28: Double = -273.15
 val v29: String = "SpaceX"
 
-// Boolean type's value FALSE should be written in lowercase letters
-val v30: Boolean = false
+// Boolean type's value FALSE should be written in lowercase letters, correct val v30: Boolean = false
+//val v30 = FALSE
 
 val v31: Double = 0.007
 
-// Emodji require String; incorrect double quotes “” from text redactor
-val v32: String = "🤯"
+// Emodji require String; incorrect double quotes “” from text redactor, correct val v32: String = "🤯"
+//val v34 = ‘65535’
 
 val v33: Map<String, Int> = mapOf("true" to 2, "false" to 34)
 
 // ‘’ incorrect quotes from text redactor; '' require 1 symbol, so it should be either String "65535" or Short/Int 65535
 val v34: String = "65535"
+
 
 val v38: String = "Quantum Computing"
 val v39: Map<Int, String> = mapOf(2 to "true", 34 to "false")
@@ -62,8 +63,8 @@ val v41: Short = 314
 val v42: Long = 123456789123456789L
 val v43: Float = 6.626f
 
-// Boolean type's value TRUE should be written in lowercase letters
-val v44: Boolean = true
+// Boolean type's value TRUE should be written in lowercase letters, correct val v44: Boolean = true
+//val v44 = TRUE
 
 
 //Подбери подходящий тип который будет:
@@ -77,7 +78,7 @@ var sugarToOneCup: Byte = 2 // can be Int, Short
 val deliveryExpenses: List<Double> = listOf(12.5, 8.3, 15.7)
 
 //Хранить длину очереди в столовой до миллиардной доли сантиметра.
-var queque: Double? = null
+var queue: Double? = null
 
 //Хранить факт, закрыт ли баг после того, как его просто переименовали в фичу.
 var isBugClosed: Boolean = false
