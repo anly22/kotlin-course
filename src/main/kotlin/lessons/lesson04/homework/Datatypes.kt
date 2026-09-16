@@ -32,7 +32,7 @@ val v19: Float = 5.75f
 val v21: String = "Artificial Intelligence"
 
 // "A" looks like Char 'A', or we can use Array<Any> to keep arrayOf('x', "A"), correct val v22: Array<Char> = arrayOf('x', 'A')
-//val v20 = `1.414`
+//val v22 = arrayOf('x', "A")
 
 val v23: String = "Android Studio"
 val v24: Char = '@'
@@ -93,7 +93,7 @@ var catClicks: Long? = 0
 var starCountAttempts: Long = 123456789L
 
 //Хранить массу воздуха в спускающем матрасе после нападения кота в долях грамма.
-var air: Double? = null
+var air: Double? = null // Float
 
 //Хранить словарь «название стартапа → сумму потерь инвесторов».
 var startupsToLosses: Map<String, Double> = mapOf(
